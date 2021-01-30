@@ -1,0 +1,30 @@
+body{
+    background-color: #eaf6f6;
+    vertical-align: middle;
+}
+
+div{
+    
+}
+
+hr{
+    /* background-color: white; */
+    border-top: 5px dotted grey;
+    width: 80px;
+}
+
+h1{
+    color: #66bfbf;
+    font-size:100px;
+}
+
+h3{
+    color: #66bfbf;
+}
+
+img{
+    /* object-fit: scale-down; */
+    border-radius: 100%;
+    max-height: 200px;
+    /* max-width: 200px; */
+}
