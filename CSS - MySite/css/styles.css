@@ -42,7 +42,7 @@ hr{
     h4,h5,h6,p{
         color: #40514e;
         font-family: "Merriweather", serif;
-        font-weight: bold;
+        /* font-weight: bold; */
         /* margin: 0 auto 50px auto; */
     }
     
