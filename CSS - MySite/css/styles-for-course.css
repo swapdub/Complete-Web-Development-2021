@@ -1,0 +1,143 @@
+body{
+    color: #40514e;
+    margin: 0px;
+    text-align: center;
+    line-height: 2;
+    /* added later, watch out for errors*/
+    width: fit-content; 
+    /* grid-template-columns: auto;  */
+}
+hr{
+    border-bottom: none;
+    border-top: 5px dotted grey;
+    width: 50px;
+}
+
+.top-container{
+    background-color: #eaf6f6;
+    position: relative;
+    line-height: 1;
+    padding-top: 100px;
+}
+
+    h1{
+        color: #66bfbf;
+        font-family: "Sacramento", cursive;
+        font-size: 5.625rem;
+        line-height: 1;
+        margin: 50px auto 0 auto;
+    }
+    h2{
+        color: #66bfbf;
+        font-family: "Monteseratt", sans-serif;
+        font-weight: normal;
+        font-size: 2.5rem;
+        padding: 0 auto 10 auto;
+        margin:0%;
+    }
+    h3{
+        color: #66bfbf;
+        font-family: "Monteseratt", sans-serif;
+        font-weight: bold;
+        /* font-size: 2.5rem; */
+        margin: 0 auto 50 auto;
+    }
+    h4,h5,h6,p{
+        color: #40514e;
+        font-family: "Merriweather", serif;
+        /* font-weight: bold; */
+        /* margin: 0 auto 50px auto; */
+    }
+    
+    .top-cloud{
+        position: absolute;
+        right: 20rem;
+        top: 3rem;
+    }
+    
+    .bottom-cloud{
+        /* position: relative; */
+        position: absolute;
+        left: 20rem;
+        bottom: 20rem;
+    }
+    
+    .mountain{
+        min-width: 50px;
+
+    }
+
+.Intro{
+    margin: 100px auto 50px auto;
+    width: 50%;
+}
+    .image-cropper{
+        width: 14rem;
+        height : 14rem;
+        overflow: hidden;
+        border-radius: 50%;
+        margin: auto;
+    }    
+
+    .Profil-pic{
+        width: 100%;
+    }
+    
+.skill-rows{
+    margin: 20px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    /* line-height: 2; */
+    }
+    .EE-image{
+        float: left;
+        width: 25%;
+        margin-right: 30px;
+    }
+    .astro-image{
+        float: right;
+        width: 25%;
+        margin-left: 30px;
+    }
+
+.credits{
+    line-height: 1;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-container{
+    letter-spacing: 3px;
+    background-color: #66bfbf;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 1rem;
+}
+    .Contact-links{
+        position: relative;
+        bottom: 3rem;
+        /* display: inline-block; */
+        /* padding: 0 auto 3rem; */
+    }
+    
+    a{
+        color: #3c8686;
+        display: inline-block;
+        font-family: "Monteseratt", sans-serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 0px 20px;
+        text-decoration: none;
+    }
+    .copyright{
+        color: #eaf6f6;
+        font-family: "Merriweather", serif;
+        font-weight:bold;
+
+    }
+
+    button{
+        background-color: #66bfbf;
+        border-radius: 5%;
+    }
