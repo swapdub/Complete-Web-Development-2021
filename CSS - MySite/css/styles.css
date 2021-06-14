@@ -36,7 +36,7 @@ hr{
         font-family: "Sacramento", cursive;
         font-size: 5.625rem;
         line-height: 1;
-        margin: -10px auto 15px ;
+        margin: 10px auto 15px ;
     }
     h2{
         color: var(--text1);
