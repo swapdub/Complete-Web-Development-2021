@@ -189,6 +189,7 @@ button:hover {
 }
     .Contact-links{
         width: 720px;
+        background-color: var(--background2);
     }
     .Contact-links img{
         width: 30px;
