@@ -67,6 +67,11 @@
             <h3>Python</h3>
             <ul>
               <li>
+                <a href="https://replit.com/@swapdub/Discordbot" target="blank"
+                  >Discord Music Bot</a
+                >
+              </li>
+              <li>
                 <a
                   href="https://replit.com/@swapdub/Guess-the-Number"
                   target="blank"
@@ -78,13 +83,35 @@
           <div class="webdev">
             <h3>HTML/CSS/JavaScript</h3>
             <ul>
-              <!-- <li><a href="">Lorem, ipsum dolor.</a></li>
-              <li><a href="">Unde, velit est?</a></li>
-              <li><a href="">Tempora, dolore doloribus?</a></li>
-              <li><a href="">Quod, officiis in.</a></li>
-              <li><a href="">Tempore, nobis laborum?</a></li>
-              <li><a href="">Asperiores, officiis soluta?</a></li>
-              <li><a href="">Voluptates, nobis vero.</a></li> -->
+              <li>
+                <a
+                  href="./Bootstrap-installation/TinDog-Start-master/index.html"
+                  target="blank"
+                  >Tindog Website (Bootstrap 5)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./Dicee Challenge - Starting Files/dicee.html"
+                  target="blank"
+                  >Dice Challenge</a
+                >
+              </li>
+              <li>
+                <a href="./Drum Kit Starting Files/index.html" target="blank"
+                  >Drum Kits</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./Simon Game Challenge Starting Files/index.html"
+                  target="blank"
+                  >Simon Says</a
+                >
+              </li>
+              <!-- <li><a href="">Tempore, nobis laborum?</a></li> -->
+              <!-- <li><a href="">Asperiores, officiis soluta?</a></li> -->
+              <!-- <li><a href="">Voluptates, nobis vero.</a></li> -->
             </ul>
           </div>
           <div class="cplus">
@@ -210,5 +237,32 @@
         </div> -->
       </section>
     </div>
+    <script>
+      // Try scrolling by default using arrow keys
+      document.addEventListener('keypress', window.scrollBy(0, 500));
+
+      function logKey(e) {
+        window.scrollBy(0, 100);
+        if(e.code == "ArrowUp") {
+          window.scrollBy(0,10);
+        }
+        else if (e.code == "ArrowDown") {
+          window.scrollBy({
+            top: 100,
+            left: 100,
+            behavior: "smooth",
+          });
+        }
+        console.log(e.code)
+        }
+      function scrollWin() {
+        window.scrollBy(0, 100);
+      }
+        // setTimeout(function() {
+        //   //your code to be executed after 1 second
+        //   while (true) {window.scrollBy(0, 100)}
+        // }, 1000);
+
+    </script>
   </body>
 </html>
