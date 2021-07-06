@@ -1,5 +1,28 @@
-body{
-    /* height: 100vh; */
-    background: linear-gradient(black, 90%, blue, white);
+body {
+  /* height: 100vh; */
+  background: purple;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
 }
 
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  background-color: hsl(0, 0%, 20%);
+  
+}
+.content {
+  background-color: hsl(0, 0%, 20%);
+}

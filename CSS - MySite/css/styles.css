@@ -8,13 +8,21 @@
 
 body{
     background-color: var(--background1);
-    margin: 0px;
     text-align: center;
     line-height: 2;
     /* added later, watch out for errors*/
     width: 100vw; 
     height: 100vh;
+    margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style-type: none;
+}
+
 .maincontainer{
     width: 100%; 
     height: 100%;
@@ -28,7 +36,7 @@ body{
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    width: 100vw; 
+    width: 100%; 
     scroll-snap-align: start;
 }
 
@@ -107,7 +115,30 @@ hr{
     .Profil-pic{
         width: 100%;
     }
-    
+
+.projects{
+}
+.projects > h2 {
+    width: 100%;
+    align-self: flex-start;
+}
+.projects .projectlist{
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.projects .python > h3 {
+    align-self: flex-start;
+}
+.projects .projectlist > div {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+
 .skill-rows{
     margin: 20px auto 100px auto;
     width: 50%;
