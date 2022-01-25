@@ -22,23 +22,17 @@
   </head>
   <body>
     <div class="maincontainer">
-      <section class="top-container">
+      <section id="intro">
+        <div class="text">
+          <h2>
+            Hi, I am <span class="floating"></span>
+            <h1 class="floating"><strong>Swapnil Dubey</strong></h1>
+          </h2>
+          <p>Welcome to my corner of the internet</p>
+        </div>
         <img
-          class="top-cloud"
-          src="./CSS - MySite/images/cloud.png"
-          alt="Image of a Cloud"
-        />
-        <h1>I'm Swapnil</h1>
-        <h2>Engineer and Astro-Physicist</h2>
-        <img
-          class="bottom-cloud"
-          src="./CSS - MySite/images/cloud.png"
-          alt="Image of a Cloud"
-        />
-        <img
-          class="mountain"
-          src="./CSS - MySite/images/mountain.png"
-          alt="Image of a Mountain"
+          src="./CSS - MySite/images/learning-concept-illustration/5437683.jpg"
+          alt="Generic Brown Science Student Image"
         />
       </section>
       <section class="Intro">
@@ -49,20 +43,21 @@
             alt="Swapnil Dubey profile picture"
           />
         </div>
-        <h2>Hello!</h2>
         <p>
-          <em> ''' Hire Me !! ''' </em><br />
-          I graduated in May 2021 with a
-          <br />
-          <strong><em> Bachelors of Science </em></strong> <br />
-          in Astronomy and Electrical Engineering from <br />
+          I graduated in May 2021 with a Bachelors of Science in Astronomy and
+          Electrical Engineering from <br />
           PENNSYLVANIA STATE UNIVERSITY <br />
         </p>
       </section>
       <hr />
       <section class="projects">
         <h2>Projects</h2>
-        <h3><a href="https://sites.psu.edu/lfshowcasesp20/2020/04/29/schlumberger-5-downhole-electro-hydraulic-control-system/">PSU Final Year Project</a></h3>
+        <h3>
+          <a
+            href="https://sites.psu.edu/lfshowcasesp20/2020/04/29/schlumberger-5-downhole-electro-hydraulic-control-system/"
+            >PSU Final Year Project</a
+          >
+        </h3>
         <div class="projectlist">
           <div class="python">
             <h3>Python</h3>
@@ -73,11 +68,7 @@
                 >
               </li>
               <li>
-                <a
-                  href="https://replit.com/@swapdub/Guess-the-Number"
-                  target="blank"
-                  >Guess-the-Number</a
-                >
+                
               </li>
             </ul>
           </div>
@@ -240,30 +231,28 @@
     </div>
     <script>
       // Try scrolling by default using arrow keys
-      document.addEventListener('keypress', window.scrollBy(0, 500));
+      document.addEventListener("keypress", window.scrollBy(0, 500));
 
       function logKey(e) {
         window.scrollBy(0, 100);
-        if(e.code == "ArrowUp") {
-          window.scrollBy(0,10);
-        }
-        else if (e.code == "ArrowDown") {
+        if (e.code == "ArrowUp") {
+          window.scrollBy(0, 10);
+        } else if (e.code == "ArrowDown") {
           window.scrollBy({
             top: 100,
             left: 100,
             behavior: "smooth",
           });
         }
-        console.log(e.code)
-        }
+        console.log(e.code);
+      }
       function scrollWin() {
         window.scrollBy(0, 100);
       }
-        // setTimeout(function() {
-        //   //your code to be executed after 1 second
-        //   while (true) {window.scrollBy(0, 100)}
-        // }, 1000);
-
+      // setTimeout(function() {
+      //   //your code to be executed after 1 second
+      //   while (true) {window.scrollBy(0, 100)}
+      // }, 1000);
     </script>
   </body>
 </html>
